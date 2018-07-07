@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#969595</color>
+    <color name="colorAccent1">#0061b2</color>
+    <color name="loginEditColor">#b42d2c2c</color>
+    <color name="textHitColor1">#cfcfcf</color>
+    <color name="loginLine">#d2d1d1</color>
+    <color name="mainStatueBar">#ffffff</color>
+    <color name="mainBg">#ffffff</color>
+    <color name="unTabTextColor">#8a8a8a</color>
+    <color name="tabTextColor">#0061b2</color>
+    <color name="tabLine">#c4c4c4</color>
+    <color name="fragment_first_recycler_selectedColor">#b7b7b7</color>
+    <color name="fragment_first_recycler_unSelectedColor">#ffffff</color>
+    <color name="outInfoRecyclerTitleColor">#969595</color>
+    <color name="outInfoRecyclerContentColor1">#0061b2</color>
+    <color name="outInfoRecyclerContentColor2">#0a0a0a</color>
+    <color name="outInfoRecyclerBorder">#0061b2</color>
+    <color name="outInfoRecyclerLine">#bcbcbc</color>
+    <color name="OutInfoDetailTitle">#0a0a0a</color>
+    <color name="OutInfoDetailBg">#f2f2f2</color>
+    <color name="OutInfoDetailSonBg">#ffffff</color>
+    <color name="textHitColor2">#e4e4e4</color>
+    <color name="myPhotoBg">#acacac</color>
+    <color name="bar_color">#f2f2f2</color>
+    <color name="outInfoRecyclerAddressColor">#f7b45c</color>
+    <color name="tab_tag_color">#edff0004</color>
+    <color name="state_color1">#70ff3c</color>
+    <color name="state_color2">#ffc935</color>
+</resources>

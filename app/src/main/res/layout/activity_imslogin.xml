@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_login"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/login_bg"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/linear1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:weightSum="1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_logo" android:layout_weight="0.46"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1.4">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_edit_style">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_name"
+            />
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/edit_text_name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/hint_name"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/textHitColor1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_edit_style">
+
+            <ImageView
+                android:layout_weight="5"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_psd"
+                android:id="@+id/imageView2" />
+            <EditText
+                android:id="@+id/edit_text_pwd"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/hint_password"
+                android:password="true"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/textHitColor1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:id="@+id/remember_name_psd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/remember_name_psd"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1.3"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_weight="1.7"
+            android:background="@drawable/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_login_name"
+            android:onClick="btLogin"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:textSize="14sp"
+            android:text="@string/edit_url_text"
+            android:textColor="@color/outInfoRecyclerContentColor2"
+            android:id="@+id/edit_text_btn"
+            android:onClick="editUrl"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/edit_url_linear"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/login_edit_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/edit_url"
+                    android:singleLine="true"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:hint="@string/edit_url_hint"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@color/textHitColor1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/edit_url_btn_linear"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/edit_url_cancel"
+                    android:background="@drawable/button_style"
+                    android:text="@string/edit_url_cancel"
+                    android:textColor="@color/mainBg"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="editUrlCancel"/>
+                <Button
+                    android:id="@+id/edit_url_save"
+                    android:background="@drawable/button_style"
+                    android:text="@string/edit_url_save"
+                    android:textColor="@color/mainBg"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="editUrlSave"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/loginLine"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:textSize="14sp"
+        android:textColor="#FFFFFFFF" />
+</LinearLayout>
+

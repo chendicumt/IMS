@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">IMS</string>
+    <string name="hint_name">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="company_name">中国电子科技集团公司第二十八研究所</string>
+    <string name="button_login_name">登  陆</string>
+    <string name="fragment_first_recycler_name">姓名</string>
+    <string name="fragment_first_recycler_address">目的地</string>
+    <string name="fragment_first_recycler_startTime">开始时间</string>
+    <string name="fragment_first_recycler_plan_endTime">预计结束时间</string>
+    <string name="fragment_first_recycler_real_endTime">实际结束时间</string>
+    <string name="fragment_first_out_detail_title">出差详情</string>
+    <string name="fragment_second_leave_detail_title">请假详情</string>
+    <string name="out_detail_button_edit_name">修        改</string>
+    <string name="out_detail_button_save_name">保        存</string>
+    <string name="OutInfoStatisticsTitle">出差统计</string>
+    <string name="leaveInfoStatisticsTitle">请假统计</string>
+    <string name="fragment_second_recycler_name">姓名</string>
+    <string name="fragment_second_recycler_leaveType">请假类型</string>
+    <string name="fragment_second_recycler_startTime">开始时间</string>
+    <string name="fragment_second_recycler_endTime">结束时间</string>
+    <string name="fragment_second_recycler_timeLength">天数</string>
+    <string name="fragment_third_log_detail_title">日志详情</string>
+    <string name="fragment_third_recycler_name">姓名</string>
+    <string name="fragment_third_recycler_time">日期</string>
+    <string name="fragment_third_recycler_todayWork">今日完成工作</string>
+    <string name="edit_url_cancel">取消</string>
+    <string name="edit_url_save">保存</string>
+    <string name="edit_url_hint">输入url</string>
+    <string name="edit_url_text">配置地址 >></string>
+    <string name="remember_name_psd">记住用户名和密码</string>
+</resources>

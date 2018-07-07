@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/leave_search"
+        android:icon="@drawable/search"
+        android:title="leave_search"
+        app:showAsAction="always"/>
+   <!-- <item
+        android:id="@+id/leave_statistics"
+        android:icon="@drawable/statistics"
+        android:title="leave_statistics"
+        app:showAsAction="always"/>-->
+    <item
+        android:id="@+id/leave_add"
+        android:icon="@drawable/add"
+        android:title="leave_add"
+        app:showAsAction="always"/>
+
+</menu>
